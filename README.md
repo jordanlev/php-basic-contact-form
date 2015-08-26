@@ -1,10 +1,10 @@
 # PHP Basic Contact Form
-A basic contact form handler that uses Akismet to block spam and Mandrill to send you emails when someone fills out the form. This script is intended for people who are new to building web pages with HTML.
+A basic contact form handler that uses Akismet to block spam and Mandrill to send you emails when someone fills out the form. This script is ideal for people who are new to HTML.
 
 To get this file, click the "Download Zip" button (probably over on the right sidebar, about halfway down the page), unzip the downloaded file, then move the `process_form.php` file over to wherever you're working on your html. (That is the only file you will need from the download.)
 
 ## Instructions for use
-1. Sign up for [Akismet](https://akismet.com/plans/) (basic plan is free for persona/non-commercial use) and [Mandrill](https://mandrill.com/signup/) (free for up to 12,000 emails per month, which is probably 11,990 more than you will ever need). Once your accounts are created, get an "API Key" for each one.
+1. Sign up for [Akismet](https://akismet.com/plans/) (basic plan is free for personal/non-commercial use) and [Mandrill](https://mandrill.com/signup/) (free for up to 12,000 emails per month -- which is probably 11,990 more than you will ever need). Once your accounts are created, get an "API Key" for each one.
 2. Create an html page that displays a confirmation message (what people will see after they've submitted the form -- e.g. "thanks, we'll be in touch shortly!"). Upload that to your server.
 3. Open the 'process_form.php' file in a text editor and fill out the settings at the top (where to send the notification emails to, your akismet and mandrill API keys from step 1, and the location of the confirmation page you created in step 2). Save and close that file, then upload it to your server.
 4. Add a form wherever you want in your html. The form must have the following:
