@@ -21,11 +21,11 @@ if (empty($mandrill_api_key)) {
 	die('ERROR: Missing $mandrill_api_key');
 }
 
-if (empty($akismet_api_key)) {
+if (empty($notification_email_to)) {
 	die('ERROR: Missing $notification_email_to');
 }
 
-if (empty($notification_email_to)) {
+if (empty($notification_email_subject)) {
 	die('ERROR: Missing $notification_email_subject');
 }
 
